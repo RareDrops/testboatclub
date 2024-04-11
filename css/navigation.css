@@ -1,0 +1,50 @@
+.header-main-nav {
+	margin-top: 10px;
+	flex-grow: 1; /* Allow nav to take up the rest of the space */
+	display: flex;
+	height: 30px;
+	justify-content: space-around;
+	background-color: transparent;
+}
+
+.header-main-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.header-main-nav ul li {
+	display: flex;
+	background-color: orange;
+    align-items: center; /* This will vertically center the content */
+    justify-content: center; /* This will horizontally center the content */
+	margin-right: 1px; 
+	margin-left: 1px;
+	padding: 10px 20px;
+	padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.header-main-nav ul a{
+    text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+    color: white; /* This is for a light text. Adjust if your design needs a different color */
+    display: block; /* Make the anchor fill the li for the background to appear full */
+}
+
+.header-main-nav li:hover, .header-main-nav li:focus {
+    background-color: #0287c5; /* This will be the color when you hover or focus on the item */
+    border-radius: 2px; /* Optional: if you want rounded corners */
+}
+
+.header-main-nav ul::before,
+.header-main-nav ul::after {
+    content: ''; /* Necessary for creating a pseudo-element */
+    display: inline-block; /* or 'block' depending on your design */
+    width: 20px; /* Width of the decorative element or space */
+    height: 100%; /* Height of the element to match the nav bar */
+    background: orange; /* Color of the element, set to match the nav bar or as desired */
+    /* Additional styles for decoration */
+}

@@ -1,0 +1,18 @@
+.text-container {
+    background: rgba(0, 0, 0, 0.4); /* White background with 80% opacity */
+    color: #fff; /* Text color */
+    padding: 20px; /* Spacing inside the box */
+    width: 60%; /* max-width */
+    margin: 20px auto; /* Center the box horizontally */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+	.text-container-header {
+		color: blue; /* Change 'blue' to any specific color code you want, like #0000FF */
+		font-size: 24px; /* Adjust the size as needed */
+		text-align: center; /* Keeps the heading centered */
+		margin-bottom: 20px; /* Adds some space below the heading */
+	}
+

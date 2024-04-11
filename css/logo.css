@@ -1,0 +1,16 @@
+.header-main-logo {
+	display: flex;
+    justify-content: center; /* This will center the contents horizontally */
+    align-items: center; /* This will center the contents vertically */
+    flex-direction: row; /* Arrange items in a row */
+    /* Add any necessary padding or margins */
+}
+
+.header-main-logo img {
+	height: auto;
+}
+
+.header-main-logo p {
+	font-size: 60px;
+	font-family: 'Times New Roman', Times, serif;
+}

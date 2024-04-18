@@ -1,12 +1,13 @@
 .text-container {
-    background: rgba(0, 0, 0, 0.4); /* White background with 80% opacity */
+    background: rgba(0, 0, 0, 0.5); /* White background with 80% opacity */
     color: #fff; /* Text color */
     padding: 20px; /* Spacing inside the box */
     width: 60%; /* max-width */
+	font-size: 20px;
     margin: 20px auto; /* Center the box horizontally */
     border-radius: 10px; /* Optional: rounded corners */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:  Arial, Helvetica, sans-serif;
 }
 
 	.text-container-header {
@@ -15,4 +16,12 @@
 		text-align: center; /* Keeps the heading centered */
 		margin-bottom: 20px; /* Adds some space below the heading */
 	}
+
+.divider {
+	border-top: 1px solid #03a3d4; /* Adjust color and thickness as needed */
+	text-align: center; /* Center the text if needed */
+	padding-top: 20px; /* Space between the line and the text */
+	margin-top: 20px; /* Space above the line */
+	/* Other styling as needed */
+}
 

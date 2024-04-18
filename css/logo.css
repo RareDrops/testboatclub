@@ -3,6 +3,7 @@
     justify-content: center; /* This will center the contents horizontally */
     align-items: center; /* This will center the contents vertically */
     flex-direction: row; /* Arrange items in a row */
+	padding-top: 15px;
     /* Add any necessary padding or margins */
 }
 
@@ -17,6 +18,18 @@
   }
 
 .header-main-logo p {
-	font-size: 60px;
 	font-family: 'Times New Roman', Times, serif;
+}
+
+.club-name {
+    font-size: 48px; /* Adjust the size as necessary */
+    color: blue; /* Or any color you prefer */
+    margin: 15px; /* Remove default margins */
+}
+
+.club-motto {
+    font-size: 36px; /* Adjust the size as necessary */
+    color: red; /* Or any color you prefer */
+    margin: 15px; /* Remove default margins */
+	font-style: italic;
 }

@@ -1,0 +1,23 @@
+
+.executive-container {
+    display: flex;
+    justify-content: flex-start; /* This spreads out the columns evenly */
+    background-size: cover;
+	margin-left: 20px;
+}
+
+.executive-column h3 {
+    font-weight: bold;
+    color: white; /* Or any color that stands out on your background */
+    margin-bottom: 5px; /* Space between the title and the name */
+}
+
+.executive-column p {
+    color: white; /* Or any color that stands out on your background */
+    margin-top: 0; /* Remove space above the name */
+}
+
+.executive-column {
+    margin-right: 10%; /* Adjust the spacing between columns as needed */
+}
+

@@ -7,8 +7,14 @@
 }
 
 .header-main-logo img {
-	height: auto;
-}
+	/* Adjust the width and height as necessary to fit your design */
+	width: 150px; /* Example size */
+	height: 150px; /* Example size */
+	border-radius: 50%; /* This makes it circular */
+	object-fit: cover; /* This ensures the image covers the space without being stretched */
+	border: 3px solid white; /* Adjust the color and width as needed */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow for depth */
+  }
 
 .header-main-logo p {
 	font-size: 60px;

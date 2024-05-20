@@ -9,11 +9,17 @@
 	<link rel="stylesheet" href = "css/navigation.css">
 	<link rel="stylesheet" href = "css/logo.css">
 	<link rel="stylesheet" href = "css/body.css">
+	
 </head>
 <body>
     <header class="header-main">
         <!-- Navigation Bar Here -->
-		<nav class="header-main-nav">
+		<button class="hamburger-menu" onclick="toggleMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<nav class="header-main-nav" id="menu">
 			<ul>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="story.html">OUR STORY</a></li>
@@ -55,5 +61,6 @@
         <!-- Footer Content Here -->
     </footer>
     <!-- Add JavaScript File Links Here -->
+	<script src="javascript/togglemenu.js"></script>
 </body>
 </html>

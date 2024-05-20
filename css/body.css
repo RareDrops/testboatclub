@@ -4,7 +4,7 @@
     padding: 20px; /* Spacing inside the box */
     width: 60%; /* max-width */
 	font-size: 20px;
-    margin: 20px auto; /* Center the box horizontally */
+    margin: auto; /* Center the box horizontally */
     border-radius: 10px; /* Optional: rounded corners */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
 	font-family:  Arial, Helvetica, sans-serif;
